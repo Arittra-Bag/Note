@@ -22,7 +22,6 @@ NoteIt is a collaborative note-taking and organization application designed to p
 - [Testing and Debugging](#testing-and-debugging)
 - [Documentation](#documentation)
 - [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
@@ -103,9 +102,3 @@ Documentation for NoteIt includes implementation decisions, chosen libraries, fr
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out:
-
-- Email: arittrabag@gmail.com
