@@ -1,0 +1,68 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.app-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  width: 20%;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-list,
+.tag-list {
+  margin-bottom: 1rem;
+}
+
+.main-content {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.note-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.note {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+/* Add more specific styles for the NoteCreation component */
